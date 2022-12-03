@@ -1,6 +1,7 @@
 <?php
 echo "<br><br><br>
 <form method=\"POST\" enctype=\"multipart/form-data\" action=\"simpan.php\">
+
 <table>
 <tr><td>Soal / Pertanyaan </td><td> : <input type=\"text\" style=\"width: 400px;\" name=\"pertanyaan\"></td></tr>
 
