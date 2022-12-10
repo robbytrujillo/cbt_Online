@@ -8,6 +8,22 @@
          action=\"simpan.php\">
          <table>
          <tr><td>Soal / Pertanyaan </td></tr> :
-         
+         <input type=\"text\" style=\"width: 400px;\" name=\"pertanyaan\" 
+         value=\"$d[pertanyaan]\"></td></tr>
+         <tr><td>Jawaban A</td></tr> : <input type=\"text\" style=\"width: 400px;\"
+         name=\"jawaban_a\" value=\"$d[pilihan_a]\"></td></tr>
+         <tr><td>Jawaban B</td></tr> : <input type=\"text\" style=\"width: 400px;\"
+         name=\"jawaban_b\" value=\"$d[pilihan_a]\"></td></tr>
+         <tr><td>Jawaban A\C</td></tr> : <input type=\"text\" style=\"width: 400px;\"
+         name=\"jawaban_c\" value=\"$d[pilihan_a]\"></td></tr>
+         <tr><td>Jawaban D</td></tr> : <input type=\"text\" style=\"width: 400px;\"
+         name=\"jawaban_d\" value=\"$d[pilihan_a]\"></td></tr>
+
+         <tr><td>Jawaban Benar</td></tr> : <input type=\"text\"  name=\"jawaban_benar\" 
+         value=\"$d[jawaban_benar]\"></td></tr>
+
+         <tr><td colspan=\"2\"><input type=\"submit\" value=\"simpan\"> | 
+         <input type=\"button\" value=\"Batal\"
          </table>
+         </form>";
 ?>
