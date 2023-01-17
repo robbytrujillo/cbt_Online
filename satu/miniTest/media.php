@@ -9,7 +9,7 @@ if (empty($halaman)) {
 } else {
     $posisi = ($halaman - 1) * $batas;
 }
-echo "<p>$nbsp;</p>";
+echo "<p>&nbsp;</p>";
 
 //Membatasi data dari SQL
 $aksi = "simpan.php";
